@@ -3,6 +3,10 @@
 
 EV-TTC is a high-speed **Time-To-Collision (TTC)** estimation system created using a fast multi-temporal scale event representation and a slim dilated convolution network. This repository provides the complete pipeline for TTC estimation, including **C++ ROS2 nodes**, **neural network training**, and **dataset preparation**.
 
+
+https://github.com/user-attachments/assets/4d9b3bb7-925e-4cbf-9c4e-5b32667ced9f
+
+
 ---
 
 ## **Key Contributions**
