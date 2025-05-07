@@ -18,15 +18,14 @@ EV-TTC is a high-speed **Time-To-Collision (TTC)** estimation system created usi
 ## **Repository Structure**
 
 ### **1. `ev_ttc/`: ROS2 Node for Real-Time TTC Estimation**
-This folder contains the **C++ ROS2 implementation** for real-time TTC estimation. For more details, refer to the [ev_ttc README](ev_ttc/README.md).
+##### This folder contains the **C++ ROS2 implementation** for real-time TTC estimation. For more details, refer to the [ev_ttc README](ev_ttc/README.md).
 ---
 
 ### **2. `model/`: Neural Network Training and Inference**
-This folder contains the **PyTorch Lightning pipeline** for training and evaluating the EV-Slim neural network. For more details, refer to the [model README](model/README.md).
+##### This folder contains the **PyTorch Lightning pipeline** for training and evaluating the EV-Slim neural network. For more details, refer to the [model README](model/README.md).
 ---
-
 ### **3. `TTCEF/`: Dataset Preparation**
-This folder contains scripts for preparing the $T^2CEF$ dataset from the M3ED dataset. For more details, refer to the [TTCEF README](TTCEF/README.md).
+##### This folder contains scripts for preparing the $T^2CEF$ dataset from the M3ED dataset. For more details, refer to the [TTCEF README](TTCEF/README.md).
 ---
 
 ### Citation
