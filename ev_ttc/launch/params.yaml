@@ -1,0 +1,16 @@
+exp:
+  ros__parameters:
+    camera.cx: 602.498762579664
+    camera.cy: 360.850800481907
+    camera.fx: 1021.66382499730
+    camera.fy: 1017.70617933675
+    camera.k1: -0.04940616
+    camera.k2: 0.08712177
+    camera.p1: 0.00039218
+    camera.p2: -0.00131025
+    event_topic: "/event_camera/events"
+    profile: false
+    imgs: false
+    disp_num: 5
+    alphas: [0.1, 0.05, 0.025, 0.0125, 0.0075, 0.0035]
+    engine_path: "/path/to/ttc.engine"

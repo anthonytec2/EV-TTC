@@ -1,0 +1,13 @@
+repositories:
+  event_camera_msgs:
+    type: git
+    url: https://github.com/ros-event-camera/event_camera_msgs.git
+    version: main
+  event_camera_codecs:
+    type: git
+    url: https://github.com/ros-event-camera/event_camera_codecs.git
+    version: main
+  metavision_driver:
+    type: git
+    url: https://github.com/ros-event-camera/metavision_driver.git
+    version: main

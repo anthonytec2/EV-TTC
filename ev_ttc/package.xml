@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ev_ttc</name>
+  <version>1.0.0</version>
+  <description>Event-Based TTC Package</description>
+  <maintainer email="abisulco@seas.upenn.edu">root</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_ros</buildtool_depend>
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+  <buildtool_depend>event_camera_msgs</buildtool_depend>
+  <buildtool_depend>event_camera_codecs</buildtool_depend>
+
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>event_camera_msgs</depend>
+  <depend>event_camera_codecs</depend>
+  <depend>image_transport</depend>
+  <depend>sensor_msgs</depend>
+
+ 
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
